@@ -3,22 +3,38 @@ Modelling & Tree Rings
 author: Alex Dye
 date: Sept 5, 2014
 
-First Slide
+Objective
 ========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
 
--What I learned from Camp PalEON
-- Bullet 2
-- Bullet 3
+
+-Ecosystem models in PalEON
+
+-How tree ring data can be used in models
+
+-No single data source can explain everything about ecosystem
+
+
+PeCAn
+========================================================
+-Predictive Ecosystem ANalyzer
+
+-Modelling as a "scaffold" that assimilates different data sources for output
+
+-Site specific measurements assimilated to increase accuracy
+    (specific leaf area, vcmax, mortality, root turnover rates, others)
+    
+    -Tree rings as tree growth data? Pollen as veg composition? Flux data?
+
+-Pecan then uses these to generate output (NPP,leaf C, soil C, GPP, Re, others)
+
+-Better data inputs, better model outputs
+
+
 
 Slide With Code
 ========================================================
-
-```{r}
-summary(cars)
-```
+![alt text](scaffold.png)
 
 Slide With Plot
 ========================================================
