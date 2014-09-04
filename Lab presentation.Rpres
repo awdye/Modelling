@@ -22,7 +22,7 @@ PeCAn
 -Modelling as a "scaffold" that assimilates different data sources for output
 
 -Site specific measurements assimilated to increase accuracy
-    (specific leaf area, vcmax, mortality, root turnover rates, others)
+    (specific leaf area, vcmax, mortality, root turnover rates, others obtained from literature   or directly)
     
     -Tree rings as tree growth data? Pollen as veg composition? Flux data?
 
@@ -32,13 +32,37 @@ PeCAn
 
 
 
-Slide With Code
+The "scaffold"
 ========================================================
 ![alt text](scaffold.png)
 
-Slide With Plot
+Bayesian statistics
 ========================================================
+-Prior (expert opinion of what "expected" distribution)
 
-```{r, echo=FALSE}
-plot(cars)
-```
+-Data
+
+-Posterior (Adjusted distribution using prior and collected data)
+
+-Models produce posteriors from field measurements which become priors in future iterations
+
+Ongoing work
+========================================================
+-Expand network of sites and models within Pecan
+
+-Add modules (tree-rings, forest inventory, allometries, meteorology, others)
+
+-As the model stands, not sure it has capability to incorporate tree rings as a data source
+
+-Wants to compare "apple to apples"
+
+-Focus research on most important or misunderstood elements
+
+Variance decomposition
+========================================================
+![alt text](workflow.png) 
+
+Variance decomposition
+========================================================
+![alt text](variance decomposition.png)
+
